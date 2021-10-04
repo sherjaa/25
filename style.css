@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    width: 100%;
+    height: auto;
+    transition: (10s);
+}
+.pokimons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 55px;
+    width: 1224px;
+    margin: 0 auto;
+}
+.pokimon{
+    width: 20%;
+    padding: 30px;
+    margin: 16px;
+    box-shadow: 0 0 50px 5px rgb(0, 0, 0);
+    transition: 300ms;
+    background-color: rgb(0, 0, 0);
+}
+.pokimon:hover{
+    transform: scale(1.05);
+}
+.pokimon:hover img{
+    transform: scale(1.1);
+}
+
+.sarlavha{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 50px;
+    font-family: Segoe Script;
+    color: red;
+}
+body{
+    background-color: rgba(61, 62, 65, 0.685);
+}
+.id{
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: crimson;
+    border:3px solid red
+}
+.pic{
+    width: 80%;
+    display: block;
+    margin: auto;
+    border-radius: 5px;
+}
+.name{
+    text-align: center;
+    color: blue;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.info{
+    text-align: center;
+    padding: 10px;  
+    border-radius: 5px;
+    font-size: 18px;
+    font-style: italic;
+    color: cornsilk;
+    background-color: teal;
+}
